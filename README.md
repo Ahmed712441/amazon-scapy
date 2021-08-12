@@ -37,5 +37,5 @@ numpy
 </br>
 
 ## you need to install the captcha_solver model and provide the path for it in your device 
-give the path captcha.json amazon_spider at line 16</br>
-give the path captcha.h5 amazon_spider at line 20
+give the path for captcha.json in amazon_spider at line 16</br>
+give the path for captcha.h5 in amazon_spider at line 20
