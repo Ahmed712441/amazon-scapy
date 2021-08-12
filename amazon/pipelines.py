@@ -29,7 +29,8 @@ class AmazonPipeline:
     def process_item(self, item, spider):
 
         self.add_item(item)
-        # return item
+        # print(item)
+        return item
 
     def connect(self):
 
