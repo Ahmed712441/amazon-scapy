@@ -10,17 +10,22 @@ Extracts price,shipping,tittle ,feauters,Description,img_link,link of items of y
 scrapy crawl amazon -a search_key=headphones -a number_of_pages=10 -s table= "headphones" -o name_of_csv_file.csv
 ```
 </br>
+
 ## if you want to extrat file as .xml
 ```
 scrapy crawl amazon -a search_key=headphones -a number_of_pages=10 -s table= "headphones" -o name_of_xml_file.xml
 ```
+
 </br>
+
 ## if you want to extrat file as .json
 ```
 scrapy crawl amazon -a search_key=headphones -a number_of_pages=10 -s table= "headphones" -o name_of_json_file.json
 ```
 </br>
+
 ## by default it is saved to the database
+
 </br></br>
 ## Requirments
 ```
@@ -30,5 +35,6 @@ scrapy
 numpy
 ```
 </br>
+
 ## you need to install the captcha_solver model and provide the path for it in your device 
 
