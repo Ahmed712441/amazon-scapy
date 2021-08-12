@@ -1,7 +1,8 @@
 # amazon-scapy
-Full Api for scraping amazon</br></br>
+Full Api for scraping amazon</br>
 This Api can pypass captcha </br>
-Extracts price,shipping,tittle ,feauters,Description,img_link,link of items of your choosen search key</br></br>
+Extracts price,shipping,tittle ,feauters,Description,img_link,link of items of your choosen search key</br>
+Examples of extracted of files : amazon.db,items.csv,items.json</br>
 ## if you want to extrat file as .csv
 ```
 # search_key      : the keyword which you want to search at
